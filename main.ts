@@ -19,6 +19,7 @@ input.onButtonPressed(Button.B, function () {
         numero += -1
     }
     basic.showString("FIM")
+    basic.clearScreen()
     basic.pause(1000)
     basic.clearScreen()
 })
